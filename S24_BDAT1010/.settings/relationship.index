@@ -1,5 +1,43 @@
 [ {
   "baseItem" : {
+    "id" : "_MNWkEFdcEe-vIe-pMMZMww",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Mi44wFdoEe-vIe-pMMZMww",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Mi44wFdoEe-vIe-pMMZMww - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_OSmoQFd7Ee-w5ZfXA6rfRA - telecom_customer_churn",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_szFa4FgyEe-xw_IIcKVIuA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_rU52kFg7Ee-F1qapsE6kLg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ZF524Fg4Ee-F1qapsE6kLg - Passanger_booking_data",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rU52kFg7Ee-F1qapsE6kLg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_z8p9kFbdEe--E65SRlo1TQ",
     "version" : "0.1",
     "type" : "job"

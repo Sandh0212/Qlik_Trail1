@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="noDatetimeStringSync=true" DatabaseType="Microsoft SQL Server" DbmsId="id_MSSQL" DriverClass="net.sourceforge.jtds.jdbc.Driver" NullChar="" Password="enc:system.encryption.key.v1:2FypTtTIIrUReH/qpNDAk4BU3TWIXGWBpqzu+sBPEUHDNYXdxlY=" Port="1433" ProductId="SQL_SERVER" SID="AirlineCustomerChurn" SQLMode="false" ServerName="localhost" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:jtds:sqlserver://localhost:1433/AirlineCustomerChurn;noDatetimeStringSync=true" UiSchema="dbo" Username="sa" dataPackage="_e4drYFg4Ee-F1qapsE6kLg" dbVersionString="JTDS" id="_ZF524Fg4Ee-F1qapsE6kLg" label="Airline" name="Airline" supportNLS="false" xmi:id="_enIDwFg4Ee-F1qapsE6kLg">
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_enIDwVg4Ee-F1qapsE6kLg"/>
+    <taggedValue tag="package filter" value="" xmi:id="_esDnEFg4Ee-F1qapsE6kLg"/>
+    <taggedValue tag="Status" value="" xmi:id="_esLi4Fg4Ee-F1qapsE6kLg"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_esLi4Vg4Ee-F1qapsE6kLg"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_esLi4lg4Ee-F1qapsE6kLg"/>
+    <taggedValue tag="Description" value="" xmi:id="_esMJ8Fg4Ee-F1qapsE6kLg"/>
+    <taggedValue tag="Author" value="" xmi:id="_esMJ8Vg4Ee-F1qapsE6kLg"/>
+    <taggedValue tag="otherParameter" xmi:id="_esMJ8lg4Ee-F1qapsE6kLg"/>
+    <taggedValue tag="DB ProductName" value="Microsoft SQL Server" xmi:id="_evGUAFg4Ee-F1qapsE6kLg"/>
+    <taggedValue tag="DB ProductVersion" value="16.00.1000" xmi:id="_evGUAVg4Ee-F1qapsE6kLg"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="&quot;" xmi:id="_evGUAlg4Ee-F1qapsE6kLg"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value="" xmi:id="_enIDwlg4Ee-F1qapsE6kLg"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="sa" xmi:id="_enIDw1g4Ee-F1qapsE6kLg"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog dataManager="_enIDwFg4Ee-F1qapsE6kLg" name="AirlineCustomerChurn" xmi:id="_e4drYFg4Ee-F1qapsE6kLg">
+    <ownedElement name="dbo" xmi:id="_e4drYVg4Ee-F1qapsE6kLg" xsi:type="orgomg.cwm.resource.relational:Schema">
+      <ownedElement id="_zsQ1AFg5Ee-F1qapsE6kLg" label="Passanger_booking_data" name="Passanger_booking_data" tableType="TABLE" xmi:id="_zsUfYFg5Ee-F1qapsE6kLg" xsi:type="relational:TdTable">
+        <feature label="num_passengers" length="3" name="num_passengers" nullable="false" sourceType="TINYINT" talendType="id_Short" xmi:id="_zsUfYVg5Ee-F1qapsE6kLg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_zsUfYlg5Ee-F1qapsE6kLg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_zsUfY1g5Ee-F1qapsE6kLg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="-6" name="TINYINT" numericPrecisionRadix="10" xmi:id="_zsUfZFg5Ee-F1qapsE6kLg"/>
+        </feature>
+        <feature label="sales_channel" length="50" name="sales_channel" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_zsUfZVg5Ee-F1qapsE6kLg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_zsUfZlg5Ee-F1qapsE6kLg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_zsUfZ1g5Ee-F1qapsE6kLg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="NVARCHAR" xmi:id="_zsUfaFg5Ee-F1qapsE6kLg"/>
+        </feature>
+        <feature label="trip_type" length="50" name="trip_type" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_zsUfaVg5Ee-F1qapsE6kLg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_zsUfalg5Ee-F1qapsE6kLg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_zsUfa1g5Ee-F1qapsE6kLg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="NVARCHAR" xmi:id="_zsUfbFg5Ee-F1qapsE6kLg"/>
+        </feature>
+        <feature label="purchase_lead" length="5" name="purchase_lead" nullable="false" sourceType="SMALLINT" talendType="id_Short" xmi:id="_zsUfbVg5Ee-F1qapsE6kLg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_zsUfblg5Ee-F1qapsE6kLg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_zsUfb1g5Ee-F1qapsE6kLg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="5" name="SMALLINT" numericPrecisionRadix="10" xmi:id="_zsUfcFg5Ee-F1qapsE6kLg"/>
+        </feature>
+        <feature label="length_of_stay" length="5" name="length_of_stay" nullable="false" sourceType="SMALLINT" talendType="id_Short" xmi:id="_zsUfcVg5Ee-F1qapsE6kLg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_zsUfclg5Ee-F1qapsE6kLg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_zsUfc1g5Ee-F1qapsE6kLg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="5" name="SMALLINT" numericPrecisionRadix="10" xmi:id="_zsUfdFg5Ee-F1qapsE6kLg"/>
+        </feature>
+        <feature label="flight_hour" length="3" name="flight_hour" nullable="false" sourceType="TINYINT" talendType="id_Short" xmi:id="_zsUfdVg5Ee-F1qapsE6kLg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_zsUfdlg5Ee-F1qapsE6kLg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_zsUfd1g5Ee-F1qapsE6kLg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="-6" name="TINYINT" numericPrecisionRadix="10" xmi:id="_zsUfeFg5Ee-F1qapsE6kLg"/>
+        </feature>
+        <feature label="flight_day" length="50" name="flight_day" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_zsUfeVg5Ee-F1qapsE6kLg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_zsUfelg5Ee-F1qapsE6kLg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_zsUfe1g5Ee-F1qapsE6kLg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="NVARCHAR" xmi:id="_zsUffFg5Ee-F1qapsE6kLg"/>
+        </feature>
+        <feature label="route" length="50" name="route" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_zsUffVg5Ee-F1qapsE6kLg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_zsUfflg5Ee-F1qapsE6kLg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_zsUff1g5Ee-F1qapsE6kLg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="NVARCHAR" xmi:id="_zsUfgFg5Ee-F1qapsE6kLg"/>
+        </feature>
+        <feature label="booking_origin" length="50" name="booking_origin" nullable="false" sourceType="NVARCHAR" talendType="id_String" xmi:id="_zsUfgVg5Ee-F1qapsE6kLg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_zsUfglg5Ee-F1qapsE6kLg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_zsUfg1g5Ee-F1qapsE6kLg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="12" name="NVARCHAR" xmi:id="_zsUfhFg5Ee-F1qapsE6kLg"/>
+        </feature>
+        <feature label="wants_extra_baggage" length="1" name="wants_extra_baggage" nullable="false" sourceType="BIT" talendType="id_Boolean" xmi:id="_zsUfhVg5Ee-F1qapsE6kLg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_zsUfhlg5Ee-F1qapsE6kLg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_zsUfh1g5Ee-F1qapsE6kLg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="-7" name="BIT" xmi:id="_zsUfiFg5Ee-F1qapsE6kLg"/>
+        </feature>
+        <feature label="wants_preferred_seat" length="1" name="wants_preferred_seat" nullable="false" sourceType="BIT" talendType="id_Boolean" xmi:id="_zsUfiVg5Ee-F1qapsE6kLg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_zsUfilg5Ee-F1qapsE6kLg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_zsUfi1g5Ee-F1qapsE6kLg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="-7" name="BIT" xmi:id="_zsUfjFg5Ee-F1qapsE6kLg"/>
+        </feature>
+        <feature label="wants_in_flight_meals" length="1" name="wants_in_flight_meals" nullable="false" sourceType="BIT" talendType="id_Boolean" xmi:id="_zsUfjVg5Ee-F1qapsE6kLg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_zsUfjlg5Ee-F1qapsE6kLg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_zsUfj1g5Ee-F1qapsE6kLg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="-7" name="BIT" xmi:id="_zsUfkFg5Ee-F1qapsE6kLg"/>
+        </feature>
+        <feature label="flight_duration" length="53" name="flight_duration" nullable="false" sourceType="FLOAT" talendType="id_Double" xmi:id="_zsUfkVg5Ee-F1qapsE6kLg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_zsUfklg5Ee-F1qapsE6kLg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_zsUfk1g5Ee-F1qapsE6kLg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="8" name="FLOAT" numericPrecisionRadix="2" xmi:id="_zsUflFg5Ee-F1qapsE6kLg"/>
+        </feature>
+        <feature label="booking_complete" length="1" name="booking_complete" nullable="false" sourceType="BIT" talendType="id_Boolean" xmi:id="_zsUflVg5Ee-F1qapsE6kLg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_zsUfllg5Ee-F1qapsE6kLg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_zsUfl1g5Ee-F1qapsE6kLg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="-7" name="BIT" xmi:id="_zsUfmFg5Ee-F1qapsE6kLg"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4333ca5b-4952-4a13-9343-87af30659989"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>GLJnQht1HIiMw4zO39ZYYo6/aRwSQ6iKLGfrYJ0n88QDG8/e2vL75GdyM74QwGBZK/eEiiOVhjp5&#13;
+UHkWUr5Nfw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fd58c2e2-3a5f-4438-9bf1-7cb819ce0be9"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>DnvjL6sMvIcV2OdUslUe40PWF9dQzTSJmU5frsaQG45YqbNb2CGxlEsKxMSdyPRJz+QmAx8KAgtK&#13;
+T916vik8gw==</DigestValue></Reference></SignedInfo><SignatureValue>gdzxW3Eka2dRO1MzjWlwykB2Dhx9+2BBFkRIULqwe/itzYtIqi5gnINL2KKlD2QppFVitG1kyj8+&#13;
+ARODEJkylaMRdn0rcc/s2kvJZ40EmDv7fiSVSF42kx5HG2rGH7FquSxIWyUGxHJO0KbslwcU+qH8&#13;
+258UThCwEBdQX8QpyZKEph20bcRna/xymn3S89uywuAKYFFonWg3PGOAThca81fsXdaAD7loceC/&#13;
+u0Jt15vNcCNa8kp+JvPrWjEeKt7S4YRW4gKXzQsJ0TRdLcRVv8MN1+fk4ulCfmxG2OB1zgMOYF/d&#13;
+Uy3xFcraorjV1O8zvuYfBPiNNf3/AtFy9iLw3Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fd58c2e2-3a5f-4438-9bf1-7cb819ce0be9" Target="#_4333ca5b-4952-4a13-9343-87af30659989"><Timestamp>2024-08-12 00:14:06</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
