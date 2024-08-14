@@ -1,6 +1,6 @@
 [ {
   "baseItem" : {
-    "id" : "_MNWkEFdcEe-vIe-pMMZMww",
+    "id" : "_D6vFYFhTEe-VlqXMjn2UNQ",
     "version" : "0.1",
     "type" : "job"
   },
@@ -9,11 +9,11 @@
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_Mi44wFdoEe-vIe-pMMZMww - metadata",
+    "id" : "_OSmoQFd7Ee-w5ZfXA6rfRA",
     "version" : "Latest",
-    "type" : "schema"
+    "type" : "property"
   }, {
-    "id" : "_OSmoQFd7Ee-w5ZfXA6rfRA - telecom_customer_churn",
+    "id" : "_Mi44wFdoEe-vIe-pMMZMww - metadata",
     "version" : "Latest",
     "type" : "schema"
   } ]
